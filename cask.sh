@@ -9,21 +9,22 @@ brew cask update
 echo 'export HOMEBREW_CASK_OPTS="--appdir=/Applications"' >> ~/.bash_profile
 source ~/.bash_profile
 
+	# Ask for the administrator password upfront
+sudo -v
+
 # versioned
 brew cask install 1password
 brew cask install adobe-reader
+brew cask install atom
 brew cask install clipmenu
 brew cask install diffmerge
 brew cask install firefox
-brew cask install garmin-express
-brew cask install google-chrome
 brew cask install grandperspective
-brew cask install ifunbox
 brew cask install iterm2
 brew cask install karabiner
+brew cask install kindle
 brew cask install kitematic
 brew cask install omnifocus
-brew cask install sizeup
 brew cask install the-unarchiver
 brew cask install textwrangler
 brew cask install vagrant
@@ -31,9 +32,14 @@ brew cask install virtualbox
 
 # unversioned
 brew cask install dropbox --force
+brew cask install garmin-express --force
+brew cask install google-chrome --force
+brew cask install google-japanese-ime --force
+brew cask install ifunbox --force
+brew cask install shupapan --force
+brew cask install sizeup --force
 brew cask install skype --force
 brew cask install teleport --force
-brew cask install google-japanese-ime --force
 
 brew cask cleanup
 
@@ -52,7 +58,6 @@ brew cask cleanup
 # brew cask install java
 
 # not available: line
-# not available: shupapan
 # not available: toyviewer
 # not available: typist
 # not available: xstreamripper
