@@ -1,5 +1,5 @@
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-hash -r
+# ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+# hash -r
 
 brew update
 brew upgrade brew-cask
