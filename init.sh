@@ -7,7 +7,7 @@ hash -r
 # brew tap motemen/ghq
 # brew tap caskroom/fonts
 # brew tap homebrew/binary
-# brew tap homebrew/science
+brew tap homebrew/science
 
 brew update
 brew install ansible
@@ -40,63 +40,3 @@ killall Dock
 
 # install applications
 curl https://raw.githubusercontent.com/tosh13/kitting/master/cask.sh | bash
-
-# brew install unzip
-# brew install caskroom/cask/brew-cask
-# brew install peco
-# brew install ghq
-# brew install packer
-
-# brew install ag
-# brew install pt
-# brew install lv
-# brew install colordiff
-# brew install coreutils
-# brew install htop-osx
-# brew install pstree
-# brew install ssh-copy-id
-# brew install tmux
-# brew install tree
-# brew install reattach-to-user-namespace
-# brew install wget
-# brew install curl
-# brew install xz
-# brew install z
-# brew install zsh
-# brew install fish
-# brew install zsh-completions
-# brew install renameutils
-# brew install rlwrap
-# brew install mobile-shell
-# brew install jq
-# brew install jsonpp
-# brew install direnv
-# brew install highlight
-# 
-# brew install openssl
-# brew install readline
-# 
-# brew install mercurial
-# brew install tig
-# brew install hub
-# brew install mongodb
-# brew install node
-# brew install phantomjs
-# brew install postgresql
-# brew install mysql
-# brew install qt
-# brew install redis
-# brew install sqlite
-# brew install vim
-# brew install emacs --cocoa --japanese --srgb
-# 
-# brew install dnsmasq
-# 
-# brew install rbenv
-# brew install rbenv-default-gems
-# brew install rbenv-gem-rehash
-# brew install rbenv-gemset
-# brew install ruby-build
-# 
-# brew install docker
-# brew install boot2docker

@@ -43,6 +43,8 @@ brew cask install teleport --force
 
 brew cask cleanup
 
+# Google IME needs restart computer
+
 # 1Password form the Apple Store needs Chrome to be in /Applications
 # Known issues #3
 # https://guides.agilebits.com/1password-mac-kb/5/en/topic/browser-validation-failed
