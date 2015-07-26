@@ -9,10 +9,12 @@ brew cask update
 echo 'export HOMEBREW_CASK_OPTS="--appdir=/Applications"' >> ~/.bash_profile
 source ~/.bash_profile
 
-	# Ask for the administrator password upfront
+# Ask for the administrator password upfront
 sudo -v
 
 # versioned
+# karabiner needs password
+brew cask install karabiner
 brew cask install 1password
 brew cask install adobe-reader
 brew cask install atom
@@ -21,7 +23,6 @@ brew cask install diffmerge
 brew cask install firefox
 brew cask install grandperspective
 brew cask install iterm2
-brew cask install karabiner
 brew cask install kindle
 brew cask install kitematic
 brew cask install omnifocus
@@ -32,7 +33,6 @@ brew cask install virtualbox
 
 # unversioned
 brew cask install dropbox --force
-brew cask install garmin-express --force
 brew cask install google-chrome --force
 brew cask install google-japanese-ime --force
 brew cask install ifunbox --force
@@ -46,7 +46,10 @@ brew cask cleanup
 # 1Password form the Apple Store needs Chrome to be in /Applications
 # Known issues #3
 # https://guides.agilebits.com/1password-mac-kb/5/en/topic/browser-validation-failed
+rm "/Applications/Google Chrome.app"
+mv "/opt/homebrew-cask/Caskroom/google-chrome/latest/Google Chrome.app" /Applications
 
+# brew cask install garmin-express --force
 # brew cask install chrome-remote-desktop-host
 # brew cask install cyberduck
 # brew cask install libreoffice

@@ -38,6 +38,9 @@ defaults write NSGlobalDomain PMPrintingExpandedStateForPrint2 -bool true
 killall Finder
 killall Dock
 
+# install applications
+curl https://raw.githubusercontent.com/tosh13/kitting/master/cask.sh | bash
+
 # brew install unzip
 # brew install caskroom/cask/brew-cask
 # brew install peco
