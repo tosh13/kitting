@@ -1,6 +1,3 @@
-# ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-# hash -r
-
 brew update
 brew upgrade brew-cask
 brew cleanup
@@ -10,10 +7,10 @@ echo 'export HOMEBREW_CASK_OPTS="--appdir=/Applications"' >> ~/.bash_profile
 source ~/.bash_profile
 
 # Ask for the administrator password upfront
-sudo -v
+# sudo -v
 
 # Keep-alive: update existing `sudo` time stamp until script has finished
-while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
+# while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
 # versioned
 brew cask install karabiner
