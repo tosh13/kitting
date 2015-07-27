@@ -42,7 +42,7 @@ brew cask install teleport --force
 
 brew cask cleanup
 
-# Google IME needs restart computer
+# Google IME needs to restart computer
 
 # 1Password form the Apple Store needs Chrome to be in /Applications
 # Known issues #3

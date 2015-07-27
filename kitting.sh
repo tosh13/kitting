@@ -50,3 +50,8 @@ brew cask install karabiner
 brew cask install skype
 brew cask install textwrangler
 brew cask install virtualbox
+
+brew cask cleanup
+
+# Google IME needs to restart computer
+shutdown -r now
