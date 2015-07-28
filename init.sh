@@ -1,10 +1,13 @@
 #!/bin/sh
 
+# Disable sudo timeout
+sudo sh -c 'echo "\nDefaults timestamp_timeout=-1">>/etc/sudoers'
+
 # Ask for the administrator password upfront
 sudo -v
 
-# Keep-alive: update existing `sudo` time stamp until script has finished
-while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
+# Keep-alive: update existing `sudo` time stamp until script has finished -> not working
+# while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
 # QuickLookで閲覧中ファイルの文字列を選択コピー可能にする
 defaults write com.apple.finder QLEnableTextSelection -bool yes
@@ -43,3 +46,9 @@ brew install R
 
 # install applications
 curl https://raw.githubusercontent.com/tosh13/kitting/master/cask.sh | bash
+
+# re-enable sudo timeout
+sudo sed -i "/Defaults timestamp_timeout=-1/d" /etc/sudoers
+
+# Google IME needs to restart computer
+shutdown -r now

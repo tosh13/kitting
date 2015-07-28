@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# Disable sudo timeout
+sudo sh -c 'echo "\nDefaults timestamp_timeout=-1">>/etc/sudoers'
+
 # Ask for the administrator password upfront
 sudo -v
 
@@ -50,8 +53,14 @@ brew cask install karabiner
 brew cask install skype
 brew cask install textwrangler
 brew cask install virtualbox
+# brew cask install endnote
+# brew cask install microsoft-office
+# brew cask install libreoffice
 
 brew cask cleanup
+
+# re-enable sudo timeout
+sudo sed -i "/Defaults timestamp_timeout=-1/d" /etc/sudoers
 
 # Google IME needs to restart computer
 shutdown -r now
