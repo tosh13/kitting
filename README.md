@@ -1,4 +1,5 @@
 # my kitting
+sudo chown -R $(whoami):admin /usr/local
 terminal > gcc
 install the command line developer tools
 
