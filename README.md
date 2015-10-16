@@ -1,7 +1,7 @@
 # my kitting
 sudo chown -R $(whoami):admin /usr/local
 
-terminal > gcc
+xcode-select --install
 
 install the command line developer tools
 
