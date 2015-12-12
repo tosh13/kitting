@@ -1,10 +1,7 @@
 brew update
-brew upgrade brew-cask
+brew upgrade
 brew cleanup
 brew cask update
-
-echo 'export HOMEBREW_CASK_OPTS="--appdir=/Applications"' >> ~/.bash_profile
-source ~/.bash_profile
 
 # Ask for the administrator password upfront
 # sudo -v
