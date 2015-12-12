@@ -45,6 +45,9 @@ brew install nkf
 brew install R
 
 # install applications
+echo 'export HOMEBREW_CASK_OPTS="--appdir=/Applications"' >> ~/.bash_profile
+source ~/.bash_profile
+
 curl https://raw.githubusercontent.com/tosh13/kitting/master/cask.sh | bash
 
 # re-enable sudo timeout
