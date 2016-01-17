@@ -10,5 +10,9 @@ install the command line developer tools
 # my updating
 `curl https://raw.githubusercontent.com/tosh13/kitting/master/cask.sh | bash`
 
+# update only versioned software
+`curl https://raw.githubusercontent.com/tosh13/kitting/master/versioned.sh | bash`
+
 # standard kitting
 `curl https://raw.githubusercontent.com/tosh13/kitting/master/init.sh | bash`
+
