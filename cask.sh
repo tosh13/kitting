@@ -10,7 +10,6 @@ brew cask update
 # while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
 # versioned
-brew cask install karabiner
 brew cask install 1password
 brew cask install adobe-reader
 brew cask install atom
@@ -19,11 +18,13 @@ brew cask install diffmerge
 brew cask install firefox
 brew cask install grandperspective
 brew cask install iterm2
+brew cask install karabiner
 brew cask install kindle
 brew cask install kitematic
 brew cask install omnifocus
-brew cask install the-unarchiver
+brew cask install slack
 brew cask install textwrangler
+brew cask install the-unarchiver
 brew cask install vagrant
 brew cask install virtualbox
 
@@ -63,4 +64,3 @@ mv "/opt/homebrew-cask/Caskroom/google-chrome/latest/Google Chrome.app" /Applica
 # not available: typist
 # not available: xstreamripper
 # not available: skitch 1.0.12
-
