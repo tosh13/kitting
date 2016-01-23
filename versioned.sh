@@ -11,6 +11,7 @@ brew cask install diffmerge
 brew cask install firefox
 brew cask install grandperspective
 brew cask install iterm2
+brew cask install java
 brew cask install karabiner
 brew cask install kindle
 brew cask install kitematic
