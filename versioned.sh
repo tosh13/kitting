@@ -9,6 +9,7 @@ brew cask install atom
 brew cask install clipmenu
 brew cask install diffmerge
 brew cask install firefox
+brew cask install github-desktop
 brew cask install grandperspective
 brew cask install iterm2
 brew cask install java
