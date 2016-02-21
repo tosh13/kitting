@@ -56,6 +56,7 @@ brew cask install karabiner
 brew cask install microsoft-office
 brew cask install skype
 brew cask install slack
+brew cask install spectacle
 brew cask install the-unarchiver
 brew cask install textwrangler
 brew cask install virtualbox
