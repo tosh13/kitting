@@ -33,21 +33,25 @@ brew update
 brew install ansible
 brew install caskroom/cask/brew-cask
 brew install git
-brew install heroku-toolbelt
 brew install nkf
 brew install R
 
 brew cask install adobe-reader
+brew cask install atom
 brew cask install clipmenu
 brew cask install diffmerge
 brew cask install dropbox
 brew cask install firefox
+brew cask install github-desktop
 brew cask install google-chrome
 brew cask install google-japanese-ime
 brew cask install grandperspective
 brew cask install iterm2
+brew cask install java
 brew cask install karabiner
 brew cask install skype
+brew cask install slack
+brew cask install the-unarchiver
 brew cask install textwrangler
 brew cask install virtualbox
 # brew cask install endnote
