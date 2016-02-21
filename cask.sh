@@ -6,7 +6,7 @@ brew cask install google-chrome --force
 brew cask install google-japanese-ime --force
 brew cask install ifunbox --force
 brew cask install shupapan --force
-brew cask install sizeup --force
+# brew cask install sizeup --force
 brew cask install skype --force
 brew cask install teleport --force
 
