@@ -14,5 +14,4 @@ install the command line developer tools
 `curl https://raw.githubusercontent.com/tosh13/kitting/master/versioned.sh | bash`
 
 # standard kitting
-`curl https://raw.githubusercontent.com/tosh13/kitting/master/init.sh | bash`
-
+`curl https://raw.githubusercontent.com/tosh13/kitting/master/kitting.sh | bash`
