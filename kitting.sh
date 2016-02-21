@@ -53,13 +53,13 @@ brew cask install grandperspective
 brew cask install iterm2
 brew cask install java
 brew cask install karabiner
+brew cask install microsoft-office
 brew cask install skype
 brew cask install slack
 brew cask install the-unarchiver
 brew cask install textwrangler
 brew cask install virtualbox
 # brew cask install endnote
-# brew cask install microsoft-office
 # brew cask install libreoffice
 
 brew cask cleanup
