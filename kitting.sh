@@ -36,6 +36,10 @@ brew install git
 brew install nkf
 brew install R
 
+# install applications
+echo 'export HOMEBREW_CASK_OPTS="--appdir=/Applications"' >> ~/.bash_profile
+source ~/.bash_profile
+
 brew cask install adobe-reader
 brew cask install atom
 brew cask install clipmenu
