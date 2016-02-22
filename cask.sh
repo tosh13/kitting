@@ -6,7 +6,6 @@ brew cask install google-chrome --force
 brew cask install google-japanese-ime --force
 brew cask install ifunbox --force
 brew cask install shupapan --force
-# brew cask install sizeup --force
 brew cask install skype --force
 brew cask install teleport --force
 
@@ -27,6 +26,7 @@ mv "/opt/homebrew-cask/Caskroom/google-chrome/latest/Google Chrome.app" /Applica
 # brew cask install macvim
 # brew cask install mou
 # brew cask install opera
+# brew cask install sizeup --force
 # brew cask install skitch
 # brew cask install vlc
 
