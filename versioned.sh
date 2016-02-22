@@ -18,6 +18,7 @@ brew cask install kindle
 brew cask install kitematic
 brew cask install omnifocus
 brew cask install slack
+brew cask install spectacle
 brew cask install textwrangler
 brew cask install the-unarchiver
 brew cask install vagrant
