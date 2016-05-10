@@ -3,8 +3,10 @@ brew upgrade
 brew cleanup
 brew cask update
 
+brew cask install java
 brew cask install 1password
 brew cask install adobe-reader
+brew cask install amazon-music
 brew cask install atom
 brew cask install clipmenu
 brew cask install diffmerge
@@ -12,7 +14,6 @@ brew cask install firefox
 brew cask install github-desktop
 brew cask install grandperspective
 brew cask install iterm2
-brew cask install java
 brew cask install karabiner
 brew cask install kindle
 brew cask install kitematic
