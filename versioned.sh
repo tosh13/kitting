@@ -24,3 +24,4 @@ brew cask install textwrangler
 brew cask install the-unarchiver
 brew cask install vagrant
 brew cask install virtualbox
+brew cask install virtualbox-extension-pack
