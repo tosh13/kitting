@@ -13,8 +13,8 @@ brew cask install github-desktop
 brew cask install grandperspective
 brew cask install iterm2
 brew cask install kindle
-brew cask install kitematic
 brew cask install omnifocus
+brew cask install rstudio
 brew cask install slack
 brew cask install spectacle
 brew cask install textwrangler
@@ -25,3 +25,4 @@ brew cask install virtualbox-extension-pack
 
 # brew cask install amazon-music
 # brew cask install karabiner
+# brew cask install kitematic
