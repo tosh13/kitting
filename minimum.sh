@@ -32,7 +32,7 @@ hash -r
 brew update
 brew cask install google-chrome --force
 brew cask install google-japanese-ime --force
-brew cask install clipmenu
+brew cask install clipy
 brew cask install cmd-eikana
 brew cask install spectacle
 brew cask install iterm2
