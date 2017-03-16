@@ -30,12 +30,14 @@ killall Dock
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 hash -r
 brew update
-brew install caskroom/cask/brew-cask
 brew cask install google-chrome --force
 brew cask install google-japanese-ime --force
 brew cask install clipmenu
+brew cask install cmd-eikana
 brew cask install spectacle
 brew cask install iterm2
+brew cask install libreoffice
+brew cask install libreoffice-language-pack
 brew cask cleanup
 
 # Google IME needs to restart computer
