@@ -43,6 +43,7 @@ source ~/.bash_profile
 brew cask install adobe-reader
 brew cask install atom
 brew cask install clipmenu
+brew cask install cmd-eikana
 brew cask install diffmerge
 brew cask install dropbox
 brew cask install firefox
