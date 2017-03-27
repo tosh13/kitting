@@ -53,6 +53,8 @@ brew cask install google-japanese-ime
 brew cask install grandperspective
 brew cask install ifunbox
 brew cask install iterm2
+brew cask install libreoffice
+brew cask install libreoffice-language-pack
 brew cask install mactex
 brew cask install omnifocus
 brew cask install owncloud
