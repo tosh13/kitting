@@ -43,6 +43,7 @@ brew cask install java
 brew cask install 1password
 brew cask install atom
 brew cask install clipy
+brew cask install cmd-eikana
 brew cask install diffmerge
 brew cask install dropbox
 brew cask install firefox
