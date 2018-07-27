@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Disable sudo timeout
-sudo sh -c 'echo "\nDefaults timestamp_timeout=-1">>/etc/sudoers'
+# sudo sh -c 'echo "\nDefaults timestamp_timeout=-1">>/etc/sudoers'
 
 # Ask for the administrator password upfront
 sudo -v
@@ -27,7 +27,7 @@ defaults write NSGlobalDomain PMPrintingExpandedStateForPrint2 -bool true
 killall Finder
 killall Dock
 
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 hash -r
 
 brew update
@@ -39,46 +39,22 @@ brew install git
 brew install nkf
 brew install R
 
-brew cask install java
-brew cask install 1password
-brew cask install atom
 brew cask install clipy
 brew cask install cmd-eikana
-brew cask install diffmerge
-brew cask install dropbox
-brew cask install firefox
-brew cask install github-desktop
-brew cask install google-chrome
-brew cask install google-japanese-ime
-brew cask install grandperspective
-brew cask install ifunbox
+brew cask install coteditor
 brew cask install iterm2
-brew cask install libreoffice
-brew cask install libreoffice-language-pack
-brew cask install mactex
-brew cask install omnifocus
-brew cask install owncloud
-brew cask install rstudio
-brew cask install shupapan
-brew cask install skype
-brew cask install slack
 brew cask install spectacle
-brew cask install teleport
-brew cask install textwrangler
 brew cask install the-unarchiver
-brew cask install vagrant
-brew cask install virtualbox
-brew cask install virtualbox-extension-pack
 
 brew cask cleanup
 
 # curl https://raw.githubusercontent.com/tosh13/kitting/master/cask.sh | bash
 
 # re-enable sudo timeout
-sudo sed -i "/Defaults timestamp_timeout=-1/d" /etc/sudoers
+# sudo sed -i "/Defaults timestamp_timeout=-1/d" /etc/sudoers
 
 # Google IME needs to restart computer
-shutdown -r now
+# shutdown -r now
 
 # Google IME needs to restart computer
 
@@ -94,8 +70,34 @@ shutdown -r now
 # echo 'export HOMEBREW_CASK_OPTS="--appdir=/Applications"' >> ~/.bash_profile
 # source ~/.bash_profile
 
+# brew cask install diffmerge
+# brew cask install dropbox
+# brew cask install firefox
+# brew cask install github-desktop
+# brew cask install google-chrome
+# brew cask install google-japanese-ime
+# brew cask install grandperspective
+# brew cask install ifunbox
+# brew cask install libreoffice
+# brew cask install libreoffice-language-pack
+# brew cask install mactex
+# brew cask install omnifocus
+# brew cask install owncloud
+# brew cask install rstudio
+# brew cask install shupapan
+# brew cask install skype
+# brew cask install slack
+# brew cask install teleport
+# brew cask install textwrangler
+# brew cask install vagrant
+# brew cask install virtualbox
+# brew cask install virtualbox-extension-pack
+
+# brew cask install 1password
+# brew cask install atom
 # brew cask install adobe-reader
 # brew cask install amazon-music
+# brew cask install java
 # brew cask install karabiner
 # brew cask install kindle
 # brew cask install kitematic
