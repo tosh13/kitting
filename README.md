@@ -1,9 +1,4 @@
 # my kitting
-
-`xcode-select --install`
-
-install the command line developer tools
-
 `curl https://raw.githubusercontent.com/tosh13/kitting/master/init.sh | bash`
 
 # Updating
