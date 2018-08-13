@@ -30,14 +30,14 @@ killall Dock
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 hash -r
 
-brew update
+# brew update
 
-brew tap homebrew/science
+# brew tap homebrew/science
 brew tap caskroom/cask
 
 brew install git
 brew install nkf
-brew install R
+# brew install R
 
 brew cask install clipy
 brew cask install cmd-eikana
