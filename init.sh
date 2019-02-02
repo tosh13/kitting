@@ -46,7 +46,7 @@ brew cask install iterm2
 brew cask install spectacle
 brew cask install the-unarchiver
 
-brew cask cleanup
+brew cleanup
 
 # curl https://raw.githubusercontent.com/tosh13/kitting/master/cask.sh | bash
 
