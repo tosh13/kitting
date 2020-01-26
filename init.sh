@@ -33,7 +33,7 @@ hash -r
 # brew update
 
 # brew tap homebrew/science
-brew tap caskroom/cask
+# brew tap caskroom/cask
 
 brew install git
 brew install nkf
